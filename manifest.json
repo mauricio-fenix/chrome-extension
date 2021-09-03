@@ -1,0 +1,28 @@
+{
+  "name": "Pinterest Normalizer",
+  "description": "Extensão para normalizar os tamanhos nos pins do Pinterest, ajudando na melhor visualização em sequência.",
+  "version": "1.0",
+  "author": "Mauricio S. Bispo",
+  "manifest_version": 3,
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.pinterest.com/*"
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": [ "/assets/*", "/src/*" ],
+      "matches": [ "https://*.pinterest.com/*" ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
