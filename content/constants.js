@@ -12,5 +12,4 @@ export const DEFINITIONS = {
     key: script,
     value: '../src/scripts'
   }
-
 }
