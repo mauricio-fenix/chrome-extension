@@ -24,5 +24,12 @@
   ],
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [ "https://*.pinterest.com/*" ],
+      "css": ["/src/styles/style.css"],
+      "js": ["/src/scripts/functions.js"]
+    }
+  ]
 }
