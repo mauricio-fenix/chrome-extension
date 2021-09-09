@@ -1,4 +1,4 @@
-# Pinterest Normalizer Extension
+# Pinterest Normalizer Extension ![Pinterest Normalizer](/assets/path128.png)
 
 #### O que é esse projeto?
 Este projeto tem o objetivo de normalizar os tamanhos dos pins presentes no [Pinterest](https://br.pinterest.com).
