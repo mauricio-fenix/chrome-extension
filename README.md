@@ -12,6 +12,9 @@ Com base nessa mesma extensão desenvolvi a *Normalizer*, que me ajuda muito a n
 
 **Espero que possa te ajudar também de alguma forma :)**
 
+#### Problemas ?
+Essa é só a primeira versão da extensão, com certeza ela terá bugs e problemas, futuramente estarei corrigindo e lançando novas versões. Se esses problemas estiverem atrapalhando a navegação do site, recomendo desativar a extensão e aguardar novas versões :(
+
 #### Informações de desenvolvimento
 * ***Agradecimento e Crédito*** Esse projeto só foi possível graças ao desenvolvimento prévio da [Pinterest Enhanced on GitHub](https://github.com/lordgiotto/pinterest-enhanced) todos os agradecimentos ao [Lorenzo Zottar](https://github.com/lordgiotto) que disponibilizou o projeto.
 * Este projeto usa o `manifest` ***V3***
@@ -20,11 +23,16 @@ Com base nessa mesma extensão desenvolvi a *Normalizer*, que me ajuda muito a n
 ###### Proximos recursos:
 - Página de opções
 - Implementação de rolamento dentro do card para imagens grandes
+- Arrumar os bug's *(próxima sessão)*
+- Deixar a extensão mais eficiente.
+- Aviso de novas versões
 
 ---
 #### Bug's
 
 * Error in event handler: TypeError: Cannot read properties of null (reading 'length') - ***Isso ainda não foi resolvido, porém, não afeta em nada o funcionamento da extensão***
+* Congelamento da página (não carrega mais pins e não rola a tela).
+* Ajustar os pins de propaganda
 
 ---
 #### ÚLTIMAS VERSÕES CHANGELOG
